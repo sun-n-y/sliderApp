@@ -381,4 +381,14 @@ ul {
   margin-top: 10rem;
   width: 80vw;
   max-width: 800px;
+  text-align: center;
+}
+
+.slick-slide img {
+  display: inline-block;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--primary-500) !important;
 }

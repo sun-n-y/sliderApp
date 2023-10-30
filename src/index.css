@@ -373,3 +373,12 @@ ul {
 .next-slide {
   transform: translateX(100%);
 }
+
+/*=============================== slick container=============== */
+
+.slick-container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 80vw;
+  max-width: 800px;
+}

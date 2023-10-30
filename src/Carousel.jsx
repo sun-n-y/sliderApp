@@ -20,6 +20,15 @@ const Carousel = () => {
     });
   };
 
+  useEffect(() => {
+    const sliderId = setInterval(() => {
+      nextSlide();
+    }, 2000);
+    return () => {
+      clearInterval(sliderId);
+    };
+  }, [currentPerson]);
+
   return (
     <section className="slider-container">
       {people.map((person, personIndex) => {
